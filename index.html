@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3d4b5">
+  <title>For Ma'am Ayisha Ambreen</title>
+  <meta name="description" content="The tree she planted. A little Teacher’s Day tribute to Ma’am Ayisha Ambreen, from Abu Bakr and Abdul Wahab.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M5 26C2 12 12 4 28 4c0 15-9 24-21 20' fill='%232f5538'/%3E%3Cpath d='M5 29 23 9' stroke='%23dce8c3' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Newsreader:ital,wght@0,400;0,500;1,400&family=Reenie+Beanie&family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" onerror="this.onerror=null;this.src='assets/vendor/gsap.min.js'"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" onerror="this.onerror=null;this.src='assets/vendor/ScrollTrigger.min.js'"></script>
+  <script defer src="story.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#story">Skip to the story</a>
+  <div class="sky" aria-hidden="true"><div class="sky-morning"></div><div class="sky-evening"></div></div>
+  <svg class="paper-texture" aria-hidden="true"><filter id="paper"><feTurbulence type="fractalNoise" baseFrequency=".72" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#paper)"/></svg>
+  <header class="page-header">
+    <a class="story-mark" href="#seed"><svg viewBox="0 0 32 40" aria-hidden="true"><path d="M14 35Q18 23 16 7M16 22Q2 22 4 11Q15 10 16 22M17 15Q30 15 27 3Q16 4 17 15" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg><span data-copy="siteName">The tree she planted</span></a>
+    <span class="header-date" data-copy="dateShort">5 October, with gratitude</span>
+    <button class="sound-toggle" id="sound-toggle" type="button" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10h4l5-4v12l-5-4H4ZM17 9l5 6M22 9l-5 6"/></svg><span data-copy="soundOff">Sound off</span></button>
+  </header>
+  <div class="scene" aria-hidden="true">
+    <div class="cloud cloud-one"><svg viewBox="0 0 200 60"><path d="M10 44Q24 21 48 34Q58 6 90 13Q121-2 139 26Q169 12 189 44"/></svg></div>
+    <div class="cloud cloud-two"><svg viewBox="0 0 200 60"><path d="M9 45Q26 26 43 34Q53 6 83 13Q111 2 134 29Q166 14 188 45"/></svg></div>
+    <div class="sun"></div>
+    <div class="ground"><svg viewBox="0 0 1440 100" preserveAspectRatio="none"><path d="M0 21Q167 7 318 24T685 17T1060 24T1440 12V100H0Z"/></svg></div>
+    <div class="tree-space" id="tree-space">
+      <svg class="tree" viewBox="0 0 720 800" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <g id="little-leaf"><path d="M0 0C-18-14-25-40-18-56C5-49 17-22 0 0Z" fill="currentColor"/><path d="M0 0Q-8-24-18-56M-8-23l-10-4M-10-33l8-9" stroke="#e2e9c6" fill="none" stroke-width="1.2" opacity=".7"/></g>
+          <g id="flower"><path d="M0 0C-13-4-14-14-6-16C0-23 8-15 6-9C19-9 17 2 7 3C7 15-4 16-6 5C-17 10-22 0-12-4" fill="#d88c72"/><circle r="3" fill="#f3cf7c"/></g>
+        </defs>
+        <g class="tree-wood" fill="none" stroke="#785238" stroke-linecap="round" stroke-linejoin="round">
+          <path class="grow trunk" d="M355 754C348 684 367 642 359 588S344 484 360 437S349 323 374 220" stroke-width="19"/>
+          <path class="grow trunk-detail" d="M355 749Q367 670 362 626T361 530Q355 472 365 427T367 287" stroke="#a27b51" stroke-width="3"/>
+          <path class="grow root" d="M357 714Q349 743 319 752M358 730Q374 749 398 754" stroke-width="10"/>
+          <path class="grow branch" d="M359 573C318 548 281 498 259 454S208 391 170 352" stroke-width="12"/>
+          <path class="grow branch" d="M353 480Q315 439 302 373T255 265" stroke-width="10"/>
+          <path class="grow branch" d="M360 434Q418 397 445 351T490 245" stroke-width="11"/>
+          <path class="grow branch" d="M363 521Q416 513 470 455T553 362" stroke-width="10"/>
+          <path class="grow branch" d="M364 316Q329 283 318 221T299 150" stroke-width="8"/>
+          <path class="grow branch" d="M366 274Q411 260 434 216T463 158" stroke-width="8"/>
+          <path class="grow twig" d="M258 452Q244 402 250 363T229 316M259 450Q208 444 180 414T121 391M211 392Q186 340 189 297M169 352Q133 352 115 326" stroke-width="4"/>
+          <path class="grow twig" d="M302 369Q277 342 268 309M304 380Q331 340 328 308M274 296Q244 279 219 274M318 221Q346 201 345 170M317 218Q287 202 267 179M373 224Q371 179 390 145" stroke-width="4"/>
+          <path class="grow twig" d="M445 350Q423 314 431 290M449 343Q492 321 509 294M482 273Q507 261 530 237M432 221Q408 198 411 180M453 180Q486 180 505 163" stroke-width="4"/>
+          <path class="grow twig" d="M470 455Q477 410 466 389M510 406Q550 412 578 391M536 380Q565 343 589 330M554 362Q548 323 559 300" stroke-width="4"/>
+        </g>
+        <g id="foliage"></g>
+        <g class="sprout" fill="none" stroke="#416741" stroke-width="3" stroke-linecap="round"><path class="sprout-stem" d="M358 753Q363 726 356 701"/><path class="sprout-left" d="M358 728C335 728 332 709 333 704C353 703 361 720 358 728" fill="#72925a"/><path class="sprout-right" d="M358 718C354 702 367 687 383 687C381 707 369 716 358 718" fill="#567948"/></g>
+        <g class="grass" id="grass"></g>
+        <g id="tree-flowers"></g>
+      </svg>
+      <div class="fireflies" id="fireflies"></div>
+    </div>
+    <div class="birds" id="birds"><svg viewBox="0 0 240 70"><path d="M12 31Q25 14 37 31Q49 14 62 31M92 47Q101 35 113 47Q126 33 136 47M161 22Q176 3 187 22Q202 5 216 22"/></svg></div>
+  </div>
+  <nav class="story-progress" aria-label="Story chapters"><a href="#seed" aria-label="The seed" class="active"></a><a href="#name" aria-label="Her name"></a><a href="#portrait" aria-label="The one who planted it"></a><a href="#lessons" aria-label="Lessons on the leaves"></a><a href="#memories" aria-label="Our memories"></a><a href="#message" aria-label="Our message"></a><a href="#add-leaf" aria-label="Leave a leaf"></a><a href="#evening" aria-label="Thank you"></a></nav>
+  <main id="story">
+    <section id="seed" class="chapter seed-chapter" aria-labelledby="seed-title">
+      <div class="chapter-copy"><p class="eyebrow" data-copy="introLabel">A little story, from your students</p><h1 id="seed-title" data-copy="seedTitle">It started with a seed, Ma’am.</h1><p class="handwritten seed-subtitle" data-copy="seedSubtitle">And a teacher who believed it could grow.</p><p class="begin-hint" data-copy="seedHint">Tap the seed, or scroll to begin</p><svg class="hint-stroke" viewBox="0 0 80 100" aria-hidden="true"><path d="M14 8Q2 55 61 81M43 80l20 4-3-21"/></svg></div>
+      <button type="button" class="seed-button" id="seed-button" aria-label="Plant the seed and begin the story"><svg viewBox="0 0 68 58" aria-hidden="true"><path class="seed-half left" d="M36 8C14 6 6 21 14 37C19 48 28 50 36 44Z" fill="#caa576" stroke="#5f4230" stroke-width="2"/><path class="seed-half right" d="M36 8C57 9 64 28 51 43C46 49 40 49 36 44Z" fill="#b28758" stroke="#5f4230" stroke-width="2"/><path d="M33 14l5 10-7 8 5 12" stroke="#6f4e33" stroke-width="1.5" fill="none"/></svg></button>
+    </section>
+    <section id="name" class="chapter" aria-labelledby="name-title"><div class="chapter-copy reveal"><p class="eyebrow" data-copy="nameLabel">Every beginning needs a little care</p><h2 id="name-title" class="name-heading"><span class="small-title" data-copy="salutation">For our Ma’am,</span><span class="sr-only" data-copy="teacherName">Ayisha Ambreen</span><svg id="name-writing" class="handwriting-svg" viewBox="0 0 760 190" aria-hidden="true"></svg></h2><p class="occasion" data-copy="occasion">Happy Teachers’ Day · 5 October</p><p class="handwritten" data-copy="nameNote">This little tree is for you.</p></div></section>
+    <section id="portrait" class="chapter" aria-labelledby="portrait-title"><div class="chapter-copy reveal"><p class="eyebrow" data-copy="portraitLabel">A little patience. A lot of belief.</p><h2 id="portrait-title" data-copy="portraitTitle">You saw something in us.</h2><p class="body-copy" data-copy="portraitBody">Even on the days we couldn’t see it ourselves.</p></div><figure class="hanging-photo reveal"><span class="photo-string" aria-hidden="true"></span><button type="button" id="portrait-swing" class="wood-frame" aria-label="Gently swing Ma’am’s photograph"><img id="teacher-photo" src="assets/ayisha.jpg" alt="Ma’am Ayisha Ambreen, in a memory shared by her students" loading="lazy" decoding="async" width="1000" height="750"></button><figcaption class="handwritten" data-copy="portraitCaption">The one who planted it.</figcaption></figure></section>
+    <section id="lessons" class="chapter lessons-chapter" aria-labelledby="lessons-title"><div class="chapter-copy reveal"><p class="eyebrow" data-copy="lessonsLabel">Some things stay with us</p><h2 id="lessons-title" data-copy="lessonsTitle">More than what was in the books.</h2><p class="body-copy" data-copy="lessonsBody">Little lessons. Quiet encouragement. Things we’ll remember.</p><p class="handwritten leaf-hint" data-copy="lessonsHint">Touch a leaf. There’s a thought inside.</p></div><div class="lesson-leaves" id="lesson-leaves" role="group" aria-label="Leaves with lessons and gratitude"></div></section>
+    <section id="memories" class="chapter memories-chapter" aria-labelledby="memories-title"><div class="chapter-copy reveal"><p class="eyebrow" data-copy="memoriesLabel">And somewhere along the way</p><h2 id="memories-title" data-copy="memoriesTitle">We grew, together.</h2><p class="body-copy" data-copy="memoriesBody">The lessons were yours. So were so many of our favourite memories.</p></div><div class="memory-collection reveal"><figure class="together-photo"><div class="wood-frame"><img id="memory-image" src="assets/together.jpg" alt="Ma’am with her students outdoors, remembering a day together" loading="lazy" decoding="async" width="1600" height="1200"><video id="memory-video" controls playsinline preload="none" hidden aria-label="A video memory with Ma’am"></video></div><figcaption><span class="handwritten" id="memory-caption">A day we’ll remember.</span><span class="memory-count" id="memory-count">1 / 8</span></figcaption></figure><div class="memory-controls"><button type="button" id="memory-prev" aria-label="Previous memory">Previous</button><div id="memory-thumbs" class="memory-thumbs" role="group" aria-label="Choose a photo or video memory"></div><button type="button" id="memory-next" aria-label="Next memory">Next</button></div></div></section>
+    <section id="message" class="chapter message-chapter" aria-labelledby="message-title"><div class="chapter-copy reveal"><p class="eyebrow" data-copy="messageLabel">From two of your many leaves</p><h2 id="message-title" data-copy="messageTitle">Dear Ma’am,</h2><div id="message-lines" class="message-lines handwritten"></div><p class="signature-label" data-copy="signatureLabel">With love and gratitude,</p><span class="sr-only" data-copy="studentNames">Abu Bakr &amp; Abdul Wahab</span><svg id="signature-writing" class="handwriting-svg signature" viewBox="0 0 920 170" role="img" aria-label="Signed Abu Bakr and Abdul Wahab"></svg></div></section>
+    <section id="add-leaf" class="chapter wish-chapter" aria-labelledby="wish-title"><div class="chapter-copy reveal"><p class="eyebrow" data-copy="wishLabel">There’s room for one more</p><h2 id="wish-title" data-copy="wishTitle">A little wish. A new leaf.</h2><p class="body-copy" data-copy="wishBody">If she helped you grow too, leave her a few words.</p><button id="open-wish" class="leaf-cta" type="button" aria-expanded="false" aria-controls="wish-form"><svg viewBox="0 0 30 30" aria-hidden="true"><path d="M5 24C2 9 14 5 26 4C27 19 17 25 7 24M5 27 22 8"/></svg><span data-copy="wishButton">Leave a leaf for Ma’am</span></button><form id="wish-form" class="wish-form" hidden><label for="wish-text" data-copy="wishInputLabel">Your words for Ma’am</label><textarea id="wish-text" name="wish" rows="3" maxlength="160" placeholder="Thank you for…" required></textarea><div class="wish-form-bottom"><span id="wish-remaining">0 / 160</span><button type="submit" data-copy="wishSubmit">Let it grow</button></div><p class="device-note" data-copy="wishLocal">Your leaf stays on this device.</p></form><p id="wish-status" class="handwritten" role="status" aria-live="polite"></p><div class="saved-wishes" id="saved-wishes" aria-label="Your saved leaves"></div></div></section>
+    <section id="evening" class="chapter evening-chapter" aria-labelledby="ending-title"><div class="chapter-copy reveal"><p class="eyebrow" data-copy="endingLabel">For everything you’ve given us</p><h2 id="ending-title" data-copy="endingTitle">Thank you for helping us grow, Ma’am.</h2><p class="handwritten" data-copy="endingNote">A little of you, in everything we become.</p><button id="replay" class="replay" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7a8 8 0 1 1-1 8M5 3v5h5"/></svg><span data-copy="replay">Plant it again</span></button></div></section>
+  </main>
+  <noscript><p class="no-script">This story still reads without JavaScript. Enable it to grow the tree and open its leaves.</p></noscript>
+</body>
+</html>
